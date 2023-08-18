@@ -609,11 +609,11 @@ color: #b8bfc3;
 }
 .sticky-menu .logo{
     margin-top: 0;
-    line-height: 61px;
+    line-height: 121px;
     height: auto;
 }
 .sticky-menu::before {
-    height: 71px;
+    height: 141px;
     top: 0;
     left: -20px;
 

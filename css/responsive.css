@@ -438,6 +438,10 @@ margin-right: 8px;
     .services-area .services-box {
     background-size: cover !important;
 }
+
+
+
+
     
     
       .button-group {
@@ -867,6 +871,13 @@ box-shadow: 0 0 0 0;
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+    .slider-shape-8{position: absolute !important;z-index: 9; max-width: 80px;}
+
+.ss-eight {
+	top: 60% !important;
+	left: 65% !important;
+}
     .s-about-content.pl-30 {
   padding-left: 0;
 }

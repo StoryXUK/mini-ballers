@@ -1305,6 +1305,7 @@ color: #fff; border: 2px solid #fff; box-shadow: none;}
     margin-right: 15px;
 }
 .slider-shape{position: absolute !important;z-index: 9; max-width: 50px;}
+.slider-shape-8{position: absolute !important;z-index: 9; max-width: 220px;}
 .ss-one {
 	top: 180px !important;
 	left: 234px !important;
@@ -1332,6 +1333,10 @@ left: 12% !important;
 .ss-seven {
 	top: 20% !important;
 	left: 89% !important;
+}
+.ss-eight {
+	top: 35% !important;
+	left: 50% !important;
 }
 
 .slider-bg .text2 h2{
@@ -3554,6 +3559,7 @@ margin-bottom: 0;
  padding: 120px 30px 30px;
 box-shadow: 0px 2px 60px 0px rgba(0, 0, 0, 0.1);
 margin-top: -90px;
+margin-bottom: 15px;
 border-radius: 10px;
     float: left;
 }
@@ -10228,3 +10234,29 @@ color: #fff;
     right: 10px;
     cursor: pointer;
   }
+
+
+
+  .second-class-img {
+    position: absolute;
+    bottom: -17px;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 25px;
+    /* Add any other styling you need for .second-class-img here */
+  }
+
+  .book-now {
+    background: #12265a;
+    font-size: 28px;
+    color: #fff;
+    padding: 7px 15px;
+    
+    border-radius: 30px;
+    width: 160px;
+    height: 38px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 25px;
+    }

@@ -584,14 +584,3 @@ new WOW().init();
 
 
 
-const openModalButton = document.getElementById('openModal');
-  const modalOverlay = document.getElementById('modalOverlay');
-  const closeModalButton = document.getElementById('closeModal');
-
-  openModalButton.addEventListener('click', () => {
-    modalOverlay.style.display = 'block';
-  });
-
-  closeModalButton.addEventListener('click', () => {
-    modalOverlay.style.display = 'none';
-  });

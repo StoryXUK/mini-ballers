@@ -10264,3 +10264,82 @@ color: #fff;
     .team-img-box {
         margin: 30px
     }
+
+
+
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        max-width: 40%;
+        
+      }
+
+      .text-center {margin: auto;}
+
+
+  /* Styles for the close icon */
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+
+
+
+  
+/* Your provided preloader styles */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #005EB8;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .5s .5s ease;
+    -moz-transition: all .5s .5s ease;
+    transition: all .5s .2s ease;
+  }
+  
+  .loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin: auto;
+    /* Add your loader styling here */
+  }
+  
+  body:not(.loaded) {
+    overflow: hidden;
+    visibility: hidden;
+  }
+  
+  body.loaded {
+    overflow: visible;
+    visibility: visible;
+  }
+  
+  body.loaded #preloader {
+    opacity: 0;
+    visibility: hidden;
+  }

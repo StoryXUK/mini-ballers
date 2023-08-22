@@ -875,7 +875,11 @@ box-shadow: 0 0 0 0;
     .preloader-logo {
         max-width: 250px;}
 
-     
+        .modal-content {
+            
+            max-width: 80%;
+            
+          }
 
     .slider-shape-8{position: absolute !important;z-index: 9; max-width: 80px;}
 

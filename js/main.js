@@ -584,3 +584,20 @@ new WOW().init();
 
 
 
+const sections = document.querySelectorAll('.section-faq');
+
+sections.forEach(section => {
+  const title = section.querySelector('.section-title-faq');
+  const content = section.querySelector('.section-content-faq');
+  const plusSign = section.querySelector('.plus-sign');
+
+  title.addEventListener('click', () => {
+	if (content.style.display === 'none') {
+	  content.style.display = 'block';
+	  plusSign.textContent = '-';
+	} else {
+	  content.style.display = 'none';
+	  plusSign.textContent = '+';
+	}
+  });
+});

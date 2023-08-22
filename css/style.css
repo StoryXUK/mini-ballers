@@ -10303,43 +10303,28 @@ color: #fff;
 
 
   
-/* Your provided preloader styles */
-#preloader {
+  #preloader {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
-    background: #005EB8;
-    height: 100%;
     width: 100%;
-    -webkit-transition: all .5s .5s ease;
-    -moz-transition: all .5s .5s ease;
-    transition: all .5s .2s ease;
-  }
-  
-  .loader {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 260px;
-    height: 260px;
-    display: block;
-    margin: auto;
-    /* Add your loader styling here */
-  }
-  
-  body:not(.loaded) {
-    overflow: hidden;
-    visibility: hidden;
-  }
-  
-  body.loaded {
-    overflow: visible;
-    visibility: visible;
-  }
-  
-  body.loaded #preloader {
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.preloader-logo {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Hide main content initially */
+.hidden {
     opacity: 0;
-    visibility: hidden;
-  }
+    transform: translateY(100%);
+    transition: opacity 0.5s, transform 0.5s;
+}

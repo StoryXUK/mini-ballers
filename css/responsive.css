@@ -868,6 +868,11 @@ box-shadow: 0 0 0 0;
     .contact-info .single-cta{
         width: 50%;
     }
+
+    .ss-eight {
+        top: 16% !important;
+        left: 80% !important;
+    }
 }
 
 

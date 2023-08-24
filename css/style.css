@@ -10358,16 +10358,16 @@ color: #fff;
 
   .section-title-faq {
     cursor: pointer;
+    color: #12265a;
   }
 
   .section-content-faq {
     display: none;
+    
+    
   }
 
-  .section-content-faq p {
-    font-size: 16px;
-    color: black;
-  }
+  
 
   .plus-sign {
     margin-right: 10px;

@@ -396,6 +396,8 @@ margin-right: 8px;
 }
 
 /* Tablet desktop :768px. */
+
+
 @media (min-width: 768px) and (max-width: 991px) {
     .header-three .menu-area {
   margin-top: 0;
@@ -872,7 +874,7 @@ box-shadow: 0 0 0 0;
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
-    .pt-100 {padding-top: 50px;}
+    .pt-100 {padding-top: 20px;}
 
     .preloader-logo {
         max-width: 250px;}
@@ -886,7 +888,7 @@ box-shadow: 0 0 0 0;
     .slider-shape-8{position: absolute !important;z-index: 9; max-width: 80px;}
 
 .ss-eight {
-	top: 60% !important;
+	top: 20% !important;
 	left: 65% !important;
 }
     .s-about-content.pl-30 {

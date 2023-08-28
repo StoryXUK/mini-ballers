@@ -93,6 +93,7 @@
 }
     .class-content span.class-price {
   width: 65px;
+  font-size: 14px !important;
 }
     .class-content .schedule li {
   padding: 0 10px;
@@ -2076,6 +2077,10 @@ background: #002e5b;
 	padding: 50px 40px;
 }
 
+.class-content span.class-price {
+    width: 65px;
+    font-size: 12px !important;
+
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -2090,3 +2095,8 @@ background: #002e5b;
     margin: 0 2px;
 
 }
+
+.class-content span.class-price {
+    width: 65px;
+    font-size: 12px !important;
+}}}

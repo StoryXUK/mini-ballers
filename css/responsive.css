@@ -400,6 +400,11 @@ margin-right: 8px;
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .class-content span.class-price {
+        width: 65px;
+        font-size: 12px !important;}
+
     .header-three .menu-area {
   margin-top: 0;
 }
@@ -1996,6 +2001,11 @@ background: #002e5b;
 .s-cta-p.pb-120 {
 	padding-bottom: 120px;
 }
+
+.class-content span.class-price {
+    width: 65px;
+    font-size: 12px !important;}
+    
 
 }
 

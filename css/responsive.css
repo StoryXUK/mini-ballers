@@ -2111,6 +2111,13 @@ background: #002e5b;
     font-size: 12px !important;
 }
 
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+
 .modal-content {
     
     width: 85%;

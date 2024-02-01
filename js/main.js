@@ -601,3 +601,20 @@ sections.forEach(section => {
 	}
   });
 });
+
+
+
+ // Hide the truro section initially
+ document.getElementById('truro').classList.add('hidden');
+
+ function switchSection(sectionId) {
+   // Hide all sections
+   var sections = document.querySelectorAll('.section');
+   sections.forEach(function(section) {
+	 section.classList.add('hidden');
+   });
+
+   // Show the selected section
+   var selectedSection = document.getElementById(sectionId);
+   selectedSection.classList.remove('hidden');
+ }

@@ -10422,3 +10422,10 @@ color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
